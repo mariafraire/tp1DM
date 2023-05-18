@@ -17,6 +17,9 @@ body{
     font-family: 'Roboto Flex', sans-serif;
 
 }
+.claePruebA{
+    display: none;
+}
 
 .seccion0{
     position: relative;
