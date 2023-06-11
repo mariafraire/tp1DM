@@ -1,81 +1,71 @@
 
-
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800;900&family=Roboto+Flex:wght@300;400;500;600;700;800;900&display=swap');
-
-
 .cta-button{
     border: solid 2px fuchsia;
 }
-
+.nav-container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content:space-between;
+}
 .barramenu{
-    position: relative; left: 800px;
-    font-size: large; font-weight: 600px; word-spacing: 50px;
-
+    position: relative; 
+    font-size: large;
+    font-weight: 600px; 
+    word-spacing: 50px;
 }
 body{
+    background-color: rgb(2, 0, 0); color: white;
     font-family: 'Outfit', sans-serif;
     font-family: 'Roboto Flex', sans-serif;
-
 }
-.claePruebA{
-    display: none;
-}
-
-.seccion0{
+.seccion1{
     position: relative;
     top: 250px;
-    left: 150px;
-
-
+}
+.seccion2 {
+    position: relative;
+    display: flex;
+    justify-content: end;
 }
 
-.box123{
+.imagen1 {
+
+}
+.seccion3{
     position: relative;
-    top: -100px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
     left: 50px;
 }
-
-.seccion1{
-    background-image:url(persona.jpg); background-repeat: no-repeat;
-    position: relative;
-    left: 600px;
-
-}
-
 
 .titulo{
     font-weight: 900;
     font-size: 50px;
 }
-
-body{
-    background-color: rgb(2, 0, 0); color: white;
+.box1, .box2, .box3 {
+    position: relative;
+    display: inline;
+    height: 300px;
+    width: 300px;
 }
-
 .box1{
     background-color: deeppink;
-    position: absolute;
-    height: 350px;
-    width: 350px;
-   
 }
 .box2{
-    position: relative; 
-    left: 400px;
-    top: -138px;
     background-color: rgb(34, 34, 34);
-    height: 350px;
-    width: 350x;
-    
+}
+.box3{
+    background-color: rgb(34, 34, 34);
 }
 
-.box3{
-    position: relative; left: 800px;
-    top: -490px;
-    background-color: rgb(34, 34, 34);
-    height: 350px;
-    width: 350px;
+.bloque2{
+    position: relative;
 }
+
+ 
 
 
 
@@ -83,15 +73,12 @@ body{
 h2{
     font-size: 30px;
 }
-
 h3{
     font-size: 20px;
 }
-
 h4{
     color: deeppink; text-transform: uppercase;
 }
-
 footer{
     color: aliceblue;
 }
